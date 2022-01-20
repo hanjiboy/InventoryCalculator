@@ -6,12 +6,12 @@ function click(num_var){
 }
 
 function check(){
-  if (num<10){
+  if (num<=10){
     $(".text").text("數量極少!!!!");
     $(".text").css("border-color","#FF6505");
     $(".text").css("color","#FF6505");
     $(".fill_stock").addClass("fill_stock_open");
-  }else if(num<20){
+  }else if(num<=20){
     $(".text").text("賣得不錯哦!!!!");
     $(".text").css("border-color","#FFCD05");
     $(".text").css("color","#FFCD05");

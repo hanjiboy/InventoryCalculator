@@ -1,1 +1,16 @@
-# InventoryCalculator
+# InventoryCalculator 庫存計算器
+
+<img src="https://images.cakeresume.com/NXXav/a0988525938/b49439c6-5bb4-4129-bf14-077dece72481.png" alt="" style="width: 400px; height: 400px;">
+
+# 動機
+時代進步，網路拍賣也是一項賺錢的好工作，隨著商品增加，有著一個能夠計算庫存數量的計數器，肯定會對盤點的時候帶來一大幫助。<br><br>
+
+# 操作流程
+預設庫存數12為基準<br><br>
+
+小於等於9時 => 警示訊息 -> 數量極少-> 彈出連絡廠商
+-> 點擊後顯現撥號中 ("☎ 聯絡中...." + 等待時間 )<br><br>
+
+小於等於10、小於等於15時 => 警示訊息 -> 賣得不錯<br><br>
+
+大於15時 => 警示訊息 -> 還剩很多<br><br>
